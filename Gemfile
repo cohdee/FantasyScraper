@@ -6,10 +6,6 @@ gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 # Use the thin webserver. Not really sure why, but it seems to be pretty common!
 gem 'thin'
-# Get some user (/) auth up in here
-gem 'devise'
-# You want user access control? 'Cause that's how you get user access control.
-gem 'cancan'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
