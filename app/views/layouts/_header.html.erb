@@ -7,9 +7,11 @@
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <% if user_signed_in? %>
-        <li class="pull-right">Logged in as <strong><%= current_user.email %></strong>.</li>
-        <li class="pull-right"><%= link_to 'Edit profile', edit_user_registration_path %></li>
-        <li class="navbar-right"><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+        <% cap_user = current_user.first_name.capitalize %>
+        <% welcome_user = 'Welcome, ' + cap_user %>
+        <li class="pull-right"><% link_to 'Edit profile', edit_user_registration_path %></li>
+        <li class="pull-right"><%= link_to 'Logout', destroy_user_session_path, method: :delete %></li>
+        <li class="pull-right"><%= link_to welcome_user, edit_user_registration_path %></li>
       <% else %>
         <li class="pull-right"><%= link_to "Sign up", new_user_registration_path %></li>
         <li class="pull-right"><%= link_to "Login", new_user_session_path %></li>

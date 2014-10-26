@@ -10,7 +10,8 @@ gem 'thin'
 gem 'devise'
 # You want user access control? 'Cause that's how you get user access control.
 gem 'cancan'
-
+# Why not make the forms a little simpler?
+gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'

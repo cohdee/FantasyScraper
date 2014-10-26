@@ -35,20 +35,22 @@ ul {
   background-color: #dff0d8;
   border-color: #d6e9c6;
   color: #468847;
-  text-align: left;
+  text-align: center;
   text-shadow: none;
+  position: fixed;
   right: 35%;
   left: 35%;
   top: 1%;
 }
 
-/* line 43, /home/action/workspace/dataproject/app/assets/stylesheets/alerts.css.scss */
+/* line 44, /home/action/workspace/dataproject/app/assets/stylesheets/alerts.css.scss */
 .alert-notice {
   background-color: #dff0d8;
   border-color: #d6e9c6;
   color: #468847;
-  text-align: left;
+  text-align: center;
   text-shadow: none;
+  position: fixed;
   right: 35%;
   left: 35%;
   top: 1%;
@@ -8076,20 +8078,22 @@ ul {
   background-color: #dff0d8;
   border-color: #d6e9c6;
   color: #468847;
-  text-align: left;
+  text-align: center;
   text-shadow: none;
+  position: fixed;
   right: 35%;
   left: 35%;
   top: 1%;
 }
 
-/* line 43, /home/action/workspace/dataproject/app/assets/stylesheets/alerts.css.scss */
+/* line 44, /home/action/workspace/dataproject/app/assets/stylesheets/alerts.css.scss */
 .alert-notice {
   background-color: #dff0d8;
   border-color: #d6e9c6;
   color: #468847;
-  text-align: left;
+  text-align: center;
   text-shadow: none;
+  position: fixed;
   right: 35%;
   left: 35%;
   top: 1%;
@@ -8104,8 +8108,13 @@ ul {
   border-radius: 0;
 }
 
+/* line 15, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+.navbar {
+  margin-bottom: 0px;
+}
+
 /* Links */
-/* line 18, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 22, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 a,
 a:focus,
 a:hover {
@@ -8113,7 +8122,7 @@ a:hover {
 }
 
 /* Custom default button */
-/* line 25, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 29, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
@@ -8127,14 +8136,14 @@ a:hover {
 /*
  * Base structure
  */
-/* line 38, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 42, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 html,
 body {
   height: 100%;
   background-color: #333;
 }
 
-/* line 42, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 46, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 body {
   color: #fff;
   text-align: center;
@@ -8142,7 +8151,7 @@ body {
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
-/* line 49, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 53, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .site-wrapper {
   display: table;
   width: 100%;
@@ -8152,20 +8161,20 @@ body {
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
 }
 
-/* line 57, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 61, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
 }
 
-/* line 61, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 65, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .cover-container {
   margin-right: auto;
   margin-left: auto;
 }
 
 /* Padding for spacing */
-/* line 67, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 71, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .inner {
   padding: 30px;
 }
@@ -8173,23 +8182,23 @@ body {
 /*
  * Header
  */
-/* line 75, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 79, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-/* line 80, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 84, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .masthead-nav > li {
   display: inline-block;
 }
 
-/* line 83, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 87, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .masthead-nav > li + li {
   margin-left: 20px;
 }
 
-/* line 86, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 90, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
@@ -8201,7 +8210,7 @@ body {
   border-bottom: 2px solid transparent;
 }
 
-/* line 96, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 100, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
@@ -8209,7 +8218,7 @@ body {
   border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 
-/* line 103, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 107, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
@@ -8218,12 +8227,12 @@ body {
 }
 
 @media (min-width: 768px) {
-  /* line 109, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+  /* line 113, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
   .masthead-brand {
     float: left;
   }
 
-  /* line 112, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+  /* line 116, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
   .masthead-nav {
     float: right;
   }
@@ -8231,12 +8240,12 @@ body {
 /*
  * Cover
  */
-/* line 122, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 126, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .cover {
   padding: 0 20px;
 }
 
-/* line 125, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 129, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .cover .btn-lg, .cover .btn-group-lg > .btn {
   padding: 10px 20px;
   font-weight: bold;
@@ -8245,7 +8254,7 @@ body {
 /*
  * Footer
  */
-/* line 135, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+/* line 139, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
 .mastfoot {
   color: #999;
   /* IE8 proofing */
@@ -8257,26 +8266,26 @@ body {
  */
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  /* line 147, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+  /* line 151, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
   .masthead {
     position: fixed;
     top: 0;
   }
 
-  /* line 151, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+  /* line 155, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
   .mastfoot {
     position: fixed;
     bottom: 0;
   }
 
   /* Start the vertical centering */
-  /* line 156, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+  /* line 160, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
   .site-wrapper-inner {
     vertical-align: middle;
   }
 
   /* Handle the widths */
-  /* line 162, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+  /* line 166, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
   .masthead,
   .mastfoot,
   .cover-container {
@@ -8285,7 +8294,7 @@ body {
   }
 }
 @media (min-width: 992px) {
-  /* line 170, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
+  /* line 174, /home/action/workspace/dataproject/app/assets/stylesheets/covertheme.css.scss */
   .masthead,
   .mastfoot,
   .cover-container {
