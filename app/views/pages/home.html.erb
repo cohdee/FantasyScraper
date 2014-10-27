@@ -1,1 +1,10 @@
-
+<h1 class="cover-heading">Current 2014-2015 Basketball Players</h1>
+<p class="lead">
+  <% require 'open-uri' %>
+  <% url = 'http://stats.nba.com/players.html' %>
+  <% data = Nokogiri::HTML(open(url)) %>
+  <% player_name = data.css('.playerlink') %>
+  <% player_name.each do |player| %>
+    <%= player.text.strip %><br />
+  <% end %>
+</p>

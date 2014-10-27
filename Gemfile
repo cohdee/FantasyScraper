@@ -12,6 +12,8 @@ gem 'devise'
 gem 'cancan'
 # Why not make the forms a little simpler?
 gem 'simple_form'
+# Let's use Nokogiri for scraping
+gem 'nokogiri'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
